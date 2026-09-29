@@ -1,6 +1,6 @@
 {
   "name": "nudge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight bridge between Claude Code in tmux and Telegram: progress, replies, approvals, screenshots.",
   "type": "module",
   "bin": {
