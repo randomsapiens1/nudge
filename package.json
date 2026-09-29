@@ -1,0 +1,32 @@
+{
+  "name": "nudge",
+  "version": "0.1.0",
+  "description": "Lightweight bridge between Claude Code in tmux and Telegram: progress, replies, approvals, screenshots.",
+  "type": "module",
+  "bin": {
+    "nudge": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "grammy": "^1.30.0",
+    "playwright-core": "^1.48.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
