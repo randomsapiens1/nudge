@@ -213,6 +213,10 @@ src/
 └── transcript.ts    # last assistant message from the JSONL transcript
 ```
 
+## License
+
+[MIT](LICENSE) © randomsapiens1
+
 ---
 
 <div align="center">
